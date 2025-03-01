@@ -1,8 +1,19 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   main.cpp                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: aaghzal <aaghzal@student.42.fr>            +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/03/01 20:18:44 by aaghzal           #+#    #+#             */
+/*   Updated: 2025/03/01 20:26:11 by aaghzal          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "Zombie.hpp"
-#include <cstdlib>
 #include <iostream>
 
-Zombie  *zombieHorde(int N, std::string name);
+Zombie*	zombieHorde(int N, std::string name);
 
 int main(void)
 {
