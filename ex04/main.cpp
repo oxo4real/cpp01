@@ -5,7 +5,7 @@
 
 int main(int ac, char **av)
 {
-    if (ac < 4)
+    if (ac != 4)
     {
         std::cout << "Usage: ./sed <filename> s1 s2"
                   << std::endl;
