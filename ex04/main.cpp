@@ -38,9 +38,9 @@ int main(int ac, char **av)
         return (1);
     }
     std::string line;
-    size_t pos = 0;
     while (std::getline(inputFile, line))
     {
+        size_t pos = 0;
         while ((pos = line.find(s1, pos)) != std::string::npos)
         {
             line.erase(pos, s1.length());
